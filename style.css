@@ -7,6 +7,26 @@ body {
   background-color: #1a3365;
 }
 
+/* Mobile Vers */
+
+@media (max-width: 768px) {
+  .activity-card {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .activity-card .activity-image .image {
+    width: 100%;
+    height: 200px; 
+    margin-bottom: 50px;
+  }
+
+  .activity-card .activity-content {
+    padding-left: 0;
+    padding-top: 10px; 
+  }
+}
+
 /* Navbar */
 .navbar {
   background-color: #1a3365;
@@ -103,6 +123,9 @@ body {
 .section h2 {
   margin-bottom: 30px;
 }
+.waves-1 {
+  margin-bottom: -25px;
+}
 
 /* Gallery */
 #gallery {
@@ -158,7 +181,7 @@ body {
   border: none;
   padding: 8px 22px;
   font-size: 18px;
-  transition: .2s;
+  transition: 0.2s;
 }
 #submit-btn:hover {
   background-color: #2e55a4;
